@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,198,1) 0%, rgba(0,212,255,1) 99%);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Button{
+  width: 70px;
+  height: 30px;
+  background-color:whitesmoke;
+  border-radius: 8px;
+  margin-left: 12px;
+  border: 2px solid black;
+  margin-bottom: 2px;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+}
+
+.Button:hover{
+    background-color: rgb(26, 24, 24);
+    color: white;
+}
+
+.container{
+    border: 5px black;
+    background-color: darkgray;
+    padding: 20px;
+    width: 250px;
+    border-radius: 11px;
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+
+}
+.inputDisplay,.outputDisplay{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 11px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.inputBtn{
+    /* background-color: darkmagenta; */
+    width: 270px;
+}
+
+.Title{
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    /* background-color: darkolivegreen; */
+    width: 230px;
+    margin-bottom: 5px;
+  }
+
+.Oper{
+    background-color: rgba(255, 255, 0, 0.808);
+}
